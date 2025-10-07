@@ -1,0 +1,18 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkETA {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #13678A;
+    color: white;
+    padding: 0.8em;
+    border-radius: 15px;
+    border: 5px solid #45C4B0;
+}

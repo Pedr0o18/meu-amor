@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Love Ya Like A Sister", cursive;
+    background-image: url("../public/fundo-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    letter-spacing: 2px;
+} 
