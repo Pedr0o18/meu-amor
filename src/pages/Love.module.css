@@ -1,0 +1,67 @@
+.shapeCard {
+    background-color: white;
+    width: 90vw;
+    margin: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: top;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.shapeCard > h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.shapeCard > div {
+    margin-top: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.display {
+    display: flex;
+    font-size: 1.5em;
+    background-color: rgba(222, 222, 0, 0.478);   
+    border-radius: 25px;
+}
+
+.timer {
+    margin: 1em;
+}
+
+li {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.firstPhoto {
+    text-align: center;
+    margin: 1em;
+    background-color: lightgray;
+    padding: 1em;
+    border-radius: 25px;
+}
+
+img.casamento {
+    width: 70vw;
+    box-shadow: 2px 2px 5px black;
+}
+
+.rioPhoto {
+    text-align: center;
+    margin: 1em;
+    background-color: lightgray;
+    padding: 1em;
+    border-radius: 25px;
+}
+
+img.rio {
+    width: 70vw;
+    box-shadow: 2px 2px 5px black;
+}

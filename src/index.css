@@ -4,14 +4,9 @@
     box-sizing: border-box;
 }
 
-html, body {
-    overflow: hidden;    
-}
-
 body {
     font-size: 1em;
     font-family: "Love Ya Like A Sister", cursive;
     background-color: #dafdba;
     letter-spacing: 2px;
-    
 } 
