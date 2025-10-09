@@ -59,7 +59,7 @@ const Love = () => {
     calcularTempoJuntos()
     const timer = setInterval(calcularTempoJuntos, 1000) // atualiza a cada segundo
     return () => clearInterval(timer)
-  }, [])
+  })
 
   return (
     <nav className={styles.shapeCard} >
@@ -78,12 +78,12 @@ const Love = () => {
       </ul>
       <div className={styles.firstPhoto}>
         <h1>08/12/2024</h1>
-        <img src="/public/casamento.jpeg" className={styles.casamento} />
+        <img src="../../public/casamento.jpeg" className={styles.casamento} />
         <p>Nesse dia postamos nossa primeira foto juntos no insta, nos assumindo para o mundo, ainda receosos sobre o futuro, mas graças a Deus tudo deu certo</p>
       </div>
       <div className={styles.rioPhoto}>
         <h1>29/12/2024</h1>
-        <img src="/public/rio.jpeg" className={styles.rio} />
+        <img src="../../public/rio.jpeg" className={styles.rio} />
         <p>Por muito tempo essa foi minha foto favorita nossa, foi a primeira foto que a gente pareceu mais casados que namorados</p>
       </div>
     </nav>
