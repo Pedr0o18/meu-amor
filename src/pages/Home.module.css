@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/fundo-home.jpg");
+    background-image: url("/images/fundo-home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
