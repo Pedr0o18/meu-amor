@@ -76,15 +76,30 @@ const Love = () => {
           <li>Segundos: {tempoJuntos.segundos} </li>
         </ul>
       </ul>
-      <div className={styles.firstPhoto}>
+      <div className={styles.Photo}>
         <h1>08/12/2024</h1>
-        <img src="/images/casamento.jpg" className={styles.casamento} />
+        <img src="/images/casamento.jpg" className={styles.img} />
         <p>Nesse dia postamos nossa primeira foto juntos no insta, nos assumindo para o mundo, ainda receosos sobre o futuro, mas graças a Deus tudo deu certo</p>
       </div>
-      <div className={styles.rioPhoto}>
+      <div className={styles.Photo}>
         <h1>29/12/2024</h1>
-        <img src="/images/rio.jpg" className={styles.rio} />
+        <img src="/images/rio.jpg" className={styles.img} />
         <p>Por muito tempo essa foi minha foto favorita nossa, foi a primeira foto que a gente pareceu mais casados que namorados</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>31/12/2024</h1>
+        <img src="images/anonovo.jpeg" className={styles.img} />
+        <p>Nossa primeira virada de ano juntos, deixando um ano tão conturbado para trás e começando um novo ciclo, esse Pedro Antônio e essa Monalysa nem imaginavam o que nos tornaríamos</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>01/02/2025</h1>
+        <img src="images/motofest.jpeg" className={styles.img} />
+        <p>Nossa fotinha no motofest, a primeira foto que você postou e eu repostei, lembro de você ter matutado muito sobre qual musica botar</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>22/02/2025</h1>
+        <img src="images/aniversario.jpeg" className={styles.img} />
+        <p>Nossa primeira festa mais arrumada juntos, primeira vez que me vesti mais social porque queria parecer mais homem aos seus olhos, o primeiro Efeito Namorada em mim foi esse aniversario</p>
       </div>
     </nav>
   )

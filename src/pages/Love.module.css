@@ -40,7 +40,7 @@ li {
     border-radius: 10px;
 }
 
-.firstPhoto {
+.Photo {
     text-align: center;
     margin: 1em;
     background-color: lightgray;
@@ -48,20 +48,10 @@ li {
     border-radius: 25px;
 }
 
-img.casamento {
+.img {
     width: 70vw;
     box-shadow: 2px 2px 5px black;
 }
 
-.rioPhoto {
-    text-align: center;
-    margin: 1em;
-    background-color: lightgray;
-    padding: 1em;
-    border-radius: 25px;
-}
 
-img.rio {
-    width: 70vw;
-    box-shadow: 2px 2px 5px black;
-}
+
