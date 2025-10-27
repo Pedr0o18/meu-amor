@@ -99,7 +99,22 @@ const Love = () => {
       <div className={styles.Photo} >
         <h1>22/02/2025</h1>
         <img src="images/aniversario.jpeg" className={styles.img} />
-        <p>Nossa primeira festa mais arrumada juntos, primeira vez que me vesti mais social porque queria parecer mais homem aos seus olhos, o primeiro Efeito Namorada em mim foi esse aniversario</p>
+        <p>primeira vez que me vesti mais social porque queria parecer mais homem aos seus olhos, o primeiro Efeito Namorada em mim foi esse aniversario</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>16/03/2025</h1>
+        <img src="images/shopping.jpeg" className={styles.img} />
+        <p>Primeira vez que a gente foi pro shopping juntos, foi muito legal correr de kart enquanto você me assistia, é muito legal fazer algo e ficar me amostranndo igual criança para você</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>02/06/2025</h1>
+        <img src="images/coracao.jpeg" className={styles.img} />
+        <p>Esse foi o primeiro dia que a gente foi ver o movimento de São João na rua, nesse dia eu vi que os próximos São Joãos da  minha vida seriam muito mais divertidos, porque tenho você ao meu lado</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>08/06/2025</h1>
+        <img src="images/casinhas.jpeg" className={styles.img} />
+        <p>A fotinha do porta retrato, eu amo tanto os portas retratos que você me deu, todo dia eu posso olhar para nossas fotos neles e ver o quanto minha vida é mais colorida e feliz com você</p>
       </div>
     </nav>
   )
