@@ -61,6 +61,26 @@ const Love = () => {
     return () => clearInterval(timer)
   })
 
+  const [photo, setPhoto] = useState(true)
+
+  const handleChangePhoto = () => {
+    if(photo === true) {
+      setPhoto(false)
+    } else {
+      setPhoto(true)
+    }
+  }
+
+  const [photo2, setPhoto2] = useState(true)
+
+  const handleChangePhoto2 = () => {
+    if(photo2 === true) {
+      setPhoto2(false)
+    } else {
+      setPhoto2(true)
+    }
+  }
+
   return (
     <nav className={styles.shapeCard} >
       <h1>Nosso Amor</h1>
@@ -113,8 +133,23 @@ const Love = () => {
       </div>
       <div className={styles.Photo} >
         <h1>08/06/2025</h1>
-        <img src="images/casinhas.jpeg" className={styles.img} />
+        <img src={photo ? "images/casinhas.jpeg" : "images/cimabaixo.jpg" } className={styles.img} onClick={handleChangePhoto} />
         <p>A fotinha do porta retrato, eu amo tanto os portas retratos que você me deu, todo dia eu posso olhar para nossas fotos neles e ver o quanto minha vida é mais colorida e feliz com você</p>
+      </div>
+      <div className={styles.Photo}>
+        <h1>20/08/2025</h1>
+        <img src={photo2 ? "images/academia2.jpg" : "images/academia.jpg" } className={styles.img} onClick={handleChangePhoto2} />
+        <p>Eu fico tão feliz de treinar com você meu amor, eu tenho muito orgulho de você ter entrado na academia e buscar ser mais saudável e buscar coisas que fazem bem para a mente e o corpo, é muito bom ser seu par de jarro minha princesa</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>11/09/2025</h1>
+        <img src="images/expo.jpg" className={styles.img} />
+        <p>E esses agricultores ai, na minha cabeça a gente era pecuaristas muito ricos e fomos pra expo pra participar dos torneios, o mais legal de tudo era a forma como pareciamos casados lá</p>
+      </div>
+      <div className={styles.Photo} >
+        <h1>24/10/2025</h1>
+        <img src="images/crisma.jpg" className={styles.img} />
+        <p>Eu fico tão feliz que você conseguiu os sacramentos que você tanto queria meu amor, meus parabéns minha princesa</p>
       </div>
     </nav>
   )
