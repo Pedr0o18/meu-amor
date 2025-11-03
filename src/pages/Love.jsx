@@ -151,6 +151,9 @@ const Love = () => {
         <img src="images/crisma.jpg" className={styles.img} />
         <p>Eu fico tão feliz que você conseguiu os sacramentos que você tanto queria meu amor, meus parabéns minha princesa</p>
       </div>
+      <div className={styles.Photo} >
+        <h1>EU TE AMO INFINITAMENTE E EU TE AMO INCONDICIONALMENTE</h1>
+      </div>
     </nav>
   )
 }
