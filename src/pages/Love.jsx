@@ -113,17 +113,17 @@ const Love = () => {
       </div>
       <div className={styles.Photo} >
         <h1>01/02/2025</h1>
-        <img src="images/motofest.jpeg" className={styles.img} />
+        <img src="images/motofest.jpg" className={styles.img} />
         <p>Nossa fotinha no motofest, a primeira foto que você postou e eu repostei, lembro de você ter matutado muito sobre qual musica botar</p>
       </div>
       <div className={styles.Photo} >
         <h1>22/02/2025</h1>
-        <img src="images/aniversario.jpeg" className={styles.img} />
+        <img src="images/aniversario.jpg" className={styles.img} />
         <p>primeira vez que me vesti mais social porque queria parecer mais homem aos seus olhos, o primeiro Efeito Namorada em mim foi esse aniversario</p>
       </div>
       <div className={styles.Photo} >
         <h1>16/03/2025</h1>
-        <img src="images/shopping.jpeg" className={styles.img} />
+        <img src="images/shopping.jpg" className={styles.img} />
         <p>Primeira vez que a gente foi pro shopping juntos, foi muito legal correr de kart enquanto você me assistia, é muito legal fazer algo e ficar me amostranndo igual criança para você</p>
       </div>
       <div className={styles.Photo} >
@@ -133,7 +133,7 @@ const Love = () => {
       </div>
       <div className={styles.Photo} >
         <h1>08/06/2025</h1>
-        <img src={photo ? "images/casinhas.jpeg" : "images/cimabaixo.jpg" } className={styles.img} onClick={handleChangePhoto} />
+        <img src={photo ? "images/casinhas.jpg" : "images/cimabaixo.jpg" } className={styles.img} onClick={handleChangePhoto} />
         <p>A fotinha do porta retrato, eu amo tanto os portas retratos que você me deu, todo dia eu posso olhar para nossas fotos neles e ver o quanto minha vida é mais colorida e feliz com você</p>
       </div>
       <div className={styles.Photo}>
